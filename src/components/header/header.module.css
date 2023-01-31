@@ -1,0 +1,26 @@
+
+.header {
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: baseline;
+  background-color: #6626a6;
+  font-size: 23px;
+  color: #96d656;
+  font-family: "Days One", sans-serif;
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+  font-size: 27px;
+  align-items: baseline;
+}
+
+.nav:last-child {
+	margin-right: 100px;
+}
+
+
