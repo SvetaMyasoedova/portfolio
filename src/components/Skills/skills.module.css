@@ -1,55 +1,46 @@
-
-
 .container {
-	margin-right: 300px;
+  margin-right: 300px;
   display: flex;
   justify-content: space-between;
   font-family: "Jost", sans-serif;
   color: #ebf0eb;
 }
 .text {
-	margin-left: 100px;
+  margin-left: 100px;
   font-size: 3.5vh;
 }
 
 .card {
-
-  transition: 0.3s;
   border-radius: 10px;
-  box-shadow: 0 0 0 8px rgba(255, 255, 255, 0.2);
-  
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.2);
 }
 .key {
-	padding: 10px;
-	font-size: 3.5vh;
+  padding: 10px;
+  font-size: 3.5vh;
 }
 
 .skills {
-	margin-right: 150px;
-	display: flex;
-	justify-content: space-between;
-	gap: 70px;
-	font-size: 2.5vh;
-
+  margin-right: 150px;
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+  font-size: 2.5vh;
 }
 
 .skills li {
-	list-style-type: none;
-	border-bottom: 10px solid transparent;
-	font-size: 1.2em;
-	width: 100%;
-	margin-bottom: 10px;
- }
+  list-style-type: none;
+  border-bottom: 10px solid transparent;
+  font-size: 1.2em;
+  width: 100%;
+  margin-bottom: 10px;
+}
 
- .skills li:hover {
-	font-size: 1.5em;
-	
- }
- 
- .skills img {
-	max-width: 40px;
-	margin-right: 10px;
-	vertical-align: middle;
- }
+.skills li:hover {
+  font-size: 1.5em;
+}
 
-
+.skills img {
+  max-width: 40px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
