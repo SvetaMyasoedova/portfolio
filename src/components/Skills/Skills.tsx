@@ -13,11 +13,19 @@ function Skills() {
   return (
     <>
       <div className={skillsStyles.container}>
-        <p className={skillsStyles.text}>
-          Hello! My name is Svetlana Myasoedova.
+        <div className={skillsStyles.about}>
+          <p className={skillsStyles.text}>
+          Hello! 
+          <br />
+          My name is Svetlana Myasoedova.
           <br />
           I'am a Front-end Developer.
         </p>
+        <div className={skillsStyles.button}>
+         <NextButton text={"About me"} to={"/about"} />
+      </div>
+        </div>
+        
         <div className={skillsStyles.card}>
           <p className={skillsStyles.key}>Key skills</p>
           <div>
@@ -58,9 +66,7 @@ function Skills() {
           </div>
         </div>
       </div>
-      <div className={skillsStyles.button}>
-         <NextButton text={"About me"} to={"/about"} />
-      </div>
+      
      
     </>
   );

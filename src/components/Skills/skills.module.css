@@ -1,20 +1,45 @@
 .container {
-  margin-right: 300px;
-  margin-bottom: 50px;
+  
+  margin-bottom: 130px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   font-family: "Jost", sans-serif;
   color: #ebf0eb;
 }
+
+.about {
+	display: flex;
+	flex-direction: column;
+	margin-left: 300px;
+}
 .text {
-  margin-left: 100px;
   font-size: 3.5vh;
+  margin-bottom: 50px;
 }
 
 .card {
+	margin-right: 400px;
+  position: relative;
+  z-index: 2;
   border-radius: 10px;
   box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.2);
+  background-color: #fcfffc;
+  color: #222;
+}
+
+.card::after {
+	display: block;
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 560px;
+  height: 420px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translate(20px,20px)
 }
 .key {
   padding: 10px;
@@ -50,5 +75,5 @@
 .button {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
 }
