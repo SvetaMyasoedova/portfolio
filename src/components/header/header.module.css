@@ -24,3 +24,13 @@
 }
 
 
+.content:hover {
+  border-color: #7ce3ff;
+  padding: 10px 25px;
+  border-radius: 3px;
+  border: 1px solid #7ce3ff;
+  background: #7ce3ff;
+  color: #222;
+}
+
+
