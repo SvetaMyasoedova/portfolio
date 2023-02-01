@@ -1,0 +1,24 @@
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+.btn {
+	font-size: 1.5em;
+	border-radius: 10px;
+	box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.2);
+	padding: 5px 20px;
+	transition: background-color 0.2s;
+	margin-top: 2%;
+	color: #ebf0eb;
+	font-family: "Jost", sans-serif;
+ }
+
+ .btn:hover {
+  padding: 10px 25px;
+  border-radius: 3px;
+  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.2);
+  background: #7ce3ff;
+  color: #222;
+ }

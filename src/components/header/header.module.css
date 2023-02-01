@@ -1,12 +1,16 @@
-
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+}
 .header {
+  color: #ebf0eb;
   padding-left: 10px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: baseline;
   font-size: 23px;
-  color: #ebf0eb;
   font-family: "Days One", sans-serif;
   margin-bottom: 100px;
 }
@@ -21,6 +25,9 @@
 
 .nav:last-child {
 	margin-right: 100px;
+}
+.content {
+  color: #ebf0eb;
 }
 
 

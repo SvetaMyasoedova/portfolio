@@ -1,6 +1,8 @@
 .container {
   margin-right: 300px;
+  margin-bottom: 50px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   font-family: "Jost", sans-serif;
   color: #ebf0eb;
@@ -43,4 +45,10 @@
   max-width: 40px;
   margin-right: 10px;
   vertical-align: middle;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
