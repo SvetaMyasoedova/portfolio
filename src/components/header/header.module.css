@@ -5,13 +5,8 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: baseline;
-  background: linear-gradient(
-		to top,
-		rgba(83, 200, 239, 0.8) 0%,
-		rgba(81, 106, 204, 0.8) 96%
-	 );
   font-size: 23px;
-  color: #2b2c48;
+  color: #ebf0eb;
   font-family: "Days One", sans-serif;
   margin-bottom: 100px;
 }
