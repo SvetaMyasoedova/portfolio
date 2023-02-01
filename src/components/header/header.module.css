@@ -5,10 +5,15 @@
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: baseline;
-  background-color: #6626a6;
+  background: linear-gradient(
+		to top,
+		rgba(83, 200, 239, 0.8) 0%,
+		rgba(81, 106, 204, 0.8) 96%
+	 );
   font-size: 23px;
-  color: #96d656;
+  color: #2b2c48;
   font-family: "Days One", sans-serif;
+  margin-bottom: 100px;
 }
 
 .nav {
