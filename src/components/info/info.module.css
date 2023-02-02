@@ -1,0 +1,22 @@
+.main {
+  margin-right: 400px;
+}
+.avatar {
+  width: 100%;
+  height: auto;
+  border-radius: 40%;
+  background-color: rgb(0, 0, 0);
+  opacity: 1;
+}
+
+
+
+.info {
+  max-width: 400px;
+  font-size: 36px;
+  
+}
+
+
+
+

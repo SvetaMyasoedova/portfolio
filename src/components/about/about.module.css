@@ -1,4 +1,7 @@
 .main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;;
   font-family: "Jost", sans-serif;
   color: #ebf0eb;
 }

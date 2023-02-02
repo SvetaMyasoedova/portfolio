@@ -1,6 +1,7 @@
 import stylesAbout from "./about.module.css";
 import Greeting from "../greeting/Greeting";
 import NextButton from "../next-button/NextButton";
+import Info from "../info/Info";
 
 function About() {
   return (
@@ -17,6 +18,7 @@ function About() {
           <NextButton text={"Projects"} to={"/"} />
         </div>
       </Greeting>
+		<Info/>
     </div>
   );
 }
