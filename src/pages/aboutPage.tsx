@@ -1,4 +1,8 @@
-
+import About from "../components/about/About";
 export const AboutPage = () => {
-	return (<><p>Hello!</p></>);
- };
+  return (
+    <>
+      <About />
+    </>
+  );
+};

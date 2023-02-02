@@ -1,0 +1,11 @@
+.main {
+  font-family: "Jost", sans-serif;
+  color: #ebf0eb;
+}
+
+.text {
+  font-size: 9.5vh;
+  letter-spacing: 5px;
+  font-family: "Days One", sans-serif;
+  opacity: .4;
+}

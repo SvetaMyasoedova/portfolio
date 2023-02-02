@@ -24,7 +24,7 @@ function Skills() {
               I'am a Front-end Developer.
             </p>
           </div>
-          <div className={skillsStyles.button}>
+          <div>
             <NextButton text={"About me"} to={"/about"} />
           </div>
         </Greeting>
