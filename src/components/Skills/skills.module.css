@@ -26,6 +26,7 @@
   box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.2);
   background-color: #fcfffc;
   color: #222;
+
 }
 
 .card::after {
@@ -39,7 +40,7 @@
   height: 420px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.1);
-  transform: translate(20px,20px)
+  transform: translate(20px,20px);
 }
 .key {
   padding: 10px;
@@ -62,9 +63,6 @@
   margin-bottom: 10px;
 }
 
-.skills li:hover {
-  font-size: 1.5em;
-}
 
 .skills img {
   max-width: 40px;

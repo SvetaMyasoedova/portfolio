@@ -16,9 +16,11 @@ a:visited {
  }
 
  .btn:hover {
-  padding: 10px 25px;
-  border-radius: 3px;
-  box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.2);
-  background: #7ce3ff;
-  color: #222;
+  font-size: 1.5em;
+  border-radius: 10px;
+  border: 0;
+  background-image: linear-gradient(120deg, #8b62cc, #e256af);
+  display: inline-block;
+  box-shadow: 0 10px 20px -5px rgba(0,0,0,.4);
+  
  }
