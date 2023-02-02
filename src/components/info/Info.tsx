@@ -1,6 +1,7 @@
 import stylesInfo from "./info.module.css";
 import avatar from "../../images/avatar.jpg";
 import project from "../../images/first_project.png";
+import codewarsBadge from "../../images/codewars.svg";
 import { useEffect, useState } from "react";
 
 function Info() {
@@ -31,7 +32,7 @@ function Info() {
               solved more than 150 Сodewars tasks to understand this in
               practice.
             </p>
-           
+           <a target="_blank" href="https://www.codewars.com/users/SvetaMyasoedova"><img src={codewarsBadge} alt="codewars badge" /></a>
           </div>
         </div>
       )}
