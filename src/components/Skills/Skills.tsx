@@ -8,24 +8,27 @@ import reduxIcon from "../../images/redux.png";
 import gitIcon from "../../images/github.png";
 
 import NextButton from "../next-button/NextButton";
+import Greeting from "../greeting/Greeting";
 
 function Skills() {
   return (
     <>
       <div className={skillsStyles.container}>
-        <div className={skillsStyles.about}>
-          <p className={skillsStyles.text}>
-          Hello! 
-          <br />
-          My name is Svetlana Myasoedova.
-          <br />
-          I'am a Front-end Developer.
-        </p>
-        <div className={skillsStyles.button}>
-         <NextButton text={"About me"} to={"/about"} />
-      </div>
-        </div>
-        
+        <Greeting>
+          <div className={skillsStyles.text}>
+            <p>
+              Hello!
+              <br />
+              My name is Svetlana Myasoedova.
+              <br />
+              I'am a Front-end Developer.
+            </p>
+          </div>
+          <div className={skillsStyles.button}>
+            <NextButton text={"About me"} to={"/about"} />
+          </div>
+        </Greeting>
+
         <div className={skillsStyles.card}>
           <p className={skillsStyles.key}>Key skills</p>
           <div>
@@ -66,8 +69,6 @@ function Skills() {
           </div>
         </div>
       </div>
-      
-     
     </>
   );
 }
