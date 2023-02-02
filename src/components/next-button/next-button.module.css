@@ -19,7 +19,7 @@ a:visited {
   font-size: 1.5em;
   border-radius: 10px;
   border: 0;
-  background-image: linear-gradient(120deg, #8b62cc, #e256af);
+  background-image: linear-gradient(120deg, rgb(139, 98, 204), rgb(226, 86, 175));
   display: inline-block;
   box-shadow: 0 10px 20px -5px rgba(0,0,0,.4);
   

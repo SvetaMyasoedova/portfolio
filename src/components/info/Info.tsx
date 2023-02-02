@@ -1,5 +1,6 @@
 import stylesInfo from "./info.module.css";
 import avatar from "../../images/avatar.jpg";
+import project from "../../images/first_project.png";
 import { useEffect, useState } from "react";
 
 function Info() {
@@ -15,10 +16,24 @@ function Info() {
       {isAvatar ? (
         <img className={stylesInfo.avatar} src={avatar} alt="Avatar" />
       ) : (
-        <p className={stylesInfo.info}>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur
-          saepe est fugiat neque laborum laudantium ea ullam aliquid
-        </p>
+        <div className={stylesInfo.scroll}>
+          <div className={stylesInfo.info}>
+            <p>7 months ago I could make a site like this using only HTML</p>
+            <img src={project} alt="My first project" />
+            <p>
+              But now I can make more complex sites and use different
+              technologies
+            </p>
+            <p>
+              I have gone through a really exciting journey. And I'm still on
+              the road. At the beginning, I could only add a button to a page
+              and make it colored. And it was wow. I really like JavaScript. I
+              solved more than 150 Сodewars tasks to understand this in
+              practice.
+            </p>
+           
+          </div>
+        </div>
       )}
     </div>
   );
