@@ -14,6 +14,9 @@ a:visited {
   font-family: "Days One", sans-serif;
   margin-bottom: 100px;
 }
+.name {
+  color: #ebf0eb;
+}
 
 .nav {
   display: flex;
