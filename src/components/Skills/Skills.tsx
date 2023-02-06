@@ -1,11 +1,5 @@
 import skillsStyles from "./skills.module.css";
-import htmlIcon from "../../images/html-5.png";
-import cssIcon from "../../images/css.png";
-import jsIcon from "../../images/js.png";
-import tsIcon from "../../images/typescript.png";
-import reactIcon from "../../images/react.png";
-import reduxIcon from "../../images/redux.png";
-import gitIcon from "../../images/github.png";
+import { skills } from "../../data/data";
 
 import NextButton from "../next-button/NextButton";
 import Greeting from "../greeting/Greeting";
@@ -34,36 +28,22 @@ function Skills() {
           <div>
             <ul className={skillsStyles.skills}>
               <div>
-                <li>
-                  <img src={htmlIcon} alt="Html" />
-                  <span>HTML</span>
-                </li>
-                <li>
-                  <img src={cssIcon} alt="CSS" />
-                  <span>CSS</span>
-                </li>
-                <li>
-                  <img src={jsIcon} alt="JavaScript" />
-                  <span>JavaScript</span>
-                </li>
-                <li>
-                  <img src={tsIcon} alt="TypeScript" />
-                  <span>TypeScript</span>
-                </li>
+                {skills.slice(0, 4).map((skill) => (
+                  <li>
+                    <img src={skill.src} alt={skill.src} />
+                    <span>{skill.text}</span>
+                  </li>
+                ))}
               </div>
               <div>
-                <li>
-                  <img src={reactIcon} alt="React" />
-                  <span>React</span>
-                </li>
-                <li>
-                  <img src={reduxIcon} alt="Redux" />
-                  <span>Redux</span>
-                </li>
-                <li>
-                  <img src={gitIcon} alt="Git" />
-                  <span>Git</span>
-                </li>
+                <div>
+                  {skills.slice(4, 7).map((skill) => (
+                    <li>
+                      <img src={skill.src} alt={skill.src} />
+                      <span>{skill.text}</span>
+                    </li>
+                  ))}
+                </div>
               </div>
             </ul>
           </div>
