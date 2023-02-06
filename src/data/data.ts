@@ -20,3 +20,5 @@ export const skills = [
   { id: 6, text: "Redux", src: reduxIcon, alt: "Redux" },
   { id: 7, text: "Git", src: gitIcon, alt: "Git" },
 ];
+
+
