@@ -4,6 +4,7 @@ import appStyles from "./app.module.css";
 import Header from "./components/header/Header";
 import Welcome from "./components/welcome/Welcome";
 import { AboutPage } from "./pages/aboutPage";
+import { ProjectPage } from "./pages/projectPage";
 
 function App() {
   return (
@@ -12,8 +13,8 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Welcome />} />
-
         <Route path="/about" element={<AboutPage />} />
+        <Route path="/projects" element={<ProjectPage />} />
       </Routes>
     </div>
   );

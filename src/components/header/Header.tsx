@@ -8,11 +8,14 @@ const Header: FC = () => {
       <header className={headerStyles.header}>
         <p>SvetaMyasoedova</p>
         <nav className={headerStyles.nav}>
-          <Link to="/about" className={headerStyles.content}>
-            <p>About</p>
+          <Link to="/about">
+            <p className={headerStyles.content}>About</p>
           </Link>
 
-          <p className={headerStyles.content}>Projects</p>
+          <Link to="/projects">
+            <p className={headerStyles.content}>Projects</p>
+          </Link>
+
           <p className={headerStyles.content}>Contact</p>
         </nav>
       </header>

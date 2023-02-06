@@ -15,7 +15,7 @@ function About() {
           </p>
         </div>
         <div>
-          <NextButton text={"Projects"} to={"/"} />
+          <NextButton text={"Projects"} to={"/projects"} />
         </div>
       </Greeting>
 		<Info/>
