@@ -29,7 +29,7 @@ function Skills() {
             <ul className={skillsStyles.skills}>
               <div>
                 {skills.slice(0, 4).map((skill) => (
-                  <li>
+                  <li key={skill.id}>
                     <img src={skill.src} alt={skill.src} />
                     <span>{skill.text}</span>
                   </li>
@@ -38,7 +38,7 @@ function Skills() {
               <div>
                 <div>
                   {skills.slice(4, 7).map((skill) => (
-                    <li>
+                    <li key={skill.id}>
                       <img src={skill.src} alt={skill.src} />
                       <span>{skill.text}</span>
                     </li>
