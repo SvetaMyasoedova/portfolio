@@ -27,20 +27,20 @@ a:visited {
 }
 
 .nav:last-child {
-	margin-right: 100px;
+  margin-right: 100px;
 }
 .content {
   color: #ebf0eb;
 }
 
-
 .content:hover {
-  border-color: #7ce3ff;
-  padding: 10px 25px;
-  border-radius: 3px;
-  border: 1px solid #7ce3ff;
-  background: #7ce3ff;
-  color: #222;
+  border-radius: 10px;
+  padding: 5px 15px;
+  background-image: linear-gradient(
+    120deg,
+    rgb(139, 98, 204),
+    rgb(226, 86, 175)
+  );
+  display: inline-block;
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.4);
 }
-
-
