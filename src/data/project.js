@@ -49,6 +49,7 @@ export const projects = [
       <img src={register} alt="register page" />,
       <img src={login} alt="login page" />,
     ],
+    gitHub: "https://github.com/SvetaMyasoedova/react-burger",
   },
   {
     id: 2,
@@ -60,6 +61,7 @@ export const projects = [
       <img src={add} alt="add modal " />,
       <img src={cards} alt="cards with books" />,
     ],
+    gitHub: "https://github.com/SvetaMyasoedova/project-library",
   },
   {
     id: 3,
@@ -71,6 +73,7 @@ export const projects = [
       <img src={win} alt="the win situation" />,
       <img src={tie} alt="It's a tie!" />,
     ],
+    gitHub: "https://github.com/SvetaMyasoedova/tic-tac-toe",
   },
   {
     id: 4,
@@ -83,5 +86,7 @@ export const projects = [
       <img src={facts} alt="facts about Corona" />,
       <img src={appDownload} alt="app download" />,
     ],
+    gitHub: "https://github.com/SvetaMyasoedova/scss-web-gocorona",
+    
   },
 ];

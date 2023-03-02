@@ -1,14 +1,16 @@
 import Carousel from "nuka-carousel";
 import cardStyles from "./projectCard.module.css";
+import gitIcon from "../../images/github.png";
 
 interface IInnerCard {
   images: JSX.Element[];
   title: string;
   text: string;
   skills: String[];
+  gitHub: string;
 }
 
-function ProjectCard({ images, title, text, skills }: IInnerCard) {
+function ProjectCard({ images, title, text, skills, gitHub }: IInnerCard) {
   return (
     <div className={cardStyles.main}>
       <div className={cardStyles.images}>
@@ -19,14 +21,18 @@ function ProjectCard({ images, title, text, skills }: IInnerCard) {
       <div className={cardStyles.info}>
         <h3>{title}</h3>
         <div>{text}</div>
-		  <div className={cardStyles.container}>
-            {skills.map((skill) => (
-              <p className={cardStyles.skill} >
-                {skill}
-              </p>
-            ))}
-          </div>
+        <div className={cardStyles.container}>
+          {skills.map((skill) => (
+            <p className={cardStyles.skill}>{skill}</p>
+          ))}
+        </div>
+       
+        <a href={gitHub}>
+          <img className={cardStyles.git}  src={gitIcon} alt="gitHub icon" />
+        </a>
+      
       </div>
+      
     </div>
   );
 }

@@ -7,7 +7,13 @@ function Projects() {
     <div className={projectsStyles.main}>
       <p className={projectsStyles.header}> My Projects</p>
       {projects.map((project) => (
-        <ProjectCard images={project.images} title={project.title} text={project.text} skills={project.skills}/>
+        <ProjectCard
+          images={project.images}
+          title={project.title}
+          text={project.text}
+          skills={project.skills}
+          gitHub={project.gitHub}
+        />
       ))}
     </div>
   );
