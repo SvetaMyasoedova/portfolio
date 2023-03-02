@@ -18,8 +18,10 @@ const Header: FC = () => {
           <Link to="/projects">
             <p className={headerStyles.content}>Projects</p>
           </Link>
-
+          <Link to="/contact">
           <p className={headerStyles.content}>Contact</p>
+          </Link>
+         
         </nav>
       </header>
     </div>
