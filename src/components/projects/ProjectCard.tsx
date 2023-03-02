@@ -27,7 +27,7 @@ function ProjectCard({ images, title, text, skills, gitHub }: IInnerCard) {
           ))}
         </div>
        
-        <a href={gitHub}>
+        <a href={gitHub} target='_blank'>
           <img className={cardStyles.git}  src={gitIcon} alt="gitHub icon" />
         </a>
       

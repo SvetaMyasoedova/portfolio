@@ -1,0 +1,22 @@
+.main {
+  width: 100%;
+}
+
+.inner {
+  display: table;
+  margin: 0 auto;
+  color: #ebf0eb;
+  font-size: 3vh;
+  font-family: "Days One", sans-serif;
+  letter-spacing: 5px;
+}
+
+.icons {
+  display: flex;
+  gap: 30px;
+}
+
+.icons img:hover {
+	padding: 5px;
+	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.6);
+ }
