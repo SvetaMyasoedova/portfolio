@@ -19,8 +19,8 @@ function ProjectCard({ images, title, text, skills, gitHub }: IInnerCard) {
         </Carousel>
       </div>
       <div className={cardStyles.info}>
-        <h3>{title}</h3>
-        <div>{text}</div>
+        <h2>{title}</h2>
+        <div className={cardStyles.text}>{text}</div>
         <div className={cardStyles.container}>
           {skills.map((skill) => (
             <p className={cardStyles.skill}>{skill}</p>
