@@ -12,6 +12,11 @@ import add from "../images/add.png";
 import cards from "../images/cards.png";
 import library from "../images/library.png";
 
+//tic tac toe
+import ticTacToe from "../images/tic_tac_toe.png";
+import win from "../images/win.png";
+import tie from "../images/tie.png";
+
 export const projects = [
   {
     id: 1,
@@ -43,17 +48,22 @@ export const projects = [
     id: 2,
     title: "LOrem ipsum",
     text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
-    skills: [
-      "Javascript",
-      "Local Storage",
-      "CSS"
-
-    ],
+    skills: ["Javascript", "Local Storage", "CSS"],
     images: [
-      <img src={library} alt="the main library page" />,
-      <img src={add} alt="add modal" />,
+      <img src={library} alt="the main library page " />,
+      <img src={add} alt="add modal " />,
       <img src={cards} alt="cards with books" />,
-      
+    ],
+  },
+  {
+    id: 3,
+    title: "LOrem ipsum",
+    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+    skills: ["Javascript", "CSS", "HTML"],
+    images: [
+      <img src={ticTacToe} alt="the main Tic Tac Toe page" />,
+      <img src={win} alt="the win situation" />,
+      <img src={tie} alt="It's a tie!" />,
     ],
   },
 ];
