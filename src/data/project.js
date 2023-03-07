@@ -26,8 +26,8 @@ import appDownload from "../images/app_download.png";
 export const projects = [
   {
     id: 1,
-    title: "LOrem ipsum",
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum",
+    title: "Stellar burgers (study project)",
+    text: "Space burger web application with the following functionality: main page, personal account and order feed. The application uses authorization and a Web - socket. The application was developed as part of the React Developer course by Yandex.",
     skills: [
       "Javascript",
       "Typescript",
@@ -87,6 +87,5 @@ export const projects = [
       <img src={appDownload} alt="app download" />,
     ],
     gitHub: "https://github.com/SvetaMyasoedova/scss-web-gocorona",
-    
   },
 ];
