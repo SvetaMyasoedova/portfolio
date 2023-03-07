@@ -1,7 +1,7 @@
 .main {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;;
+  justify-content: space-between;
   font-family: "Jost", sans-serif;
   color: #ebf0eb;
 }
@@ -10,5 +10,38 @@
   font-size: 9.5vh;
   letter-spacing: 5px;
   font-family: "Days One", sans-serif;
-  opacity: .4;
+  opacity: 0.4;
+  
+}
+
+.text:before {
+  content: "<";
+  left: 0;
+}
+
+.text:after {
+  content: "/>";
+  right: 0;
+}
+
+.text:after,
+.text:before {
+  color: #ebf0eb;
+  opacity: 0.4;
+  -webkit-animation-name: opacity;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes opacity {
+  0%,
+  100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
 }

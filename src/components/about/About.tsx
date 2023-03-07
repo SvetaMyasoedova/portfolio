@@ -8,17 +8,17 @@ function About() {
     <div className={stylesAbout.main}>
       <Greeting>
         <div className={stylesAbout.text}>
-          <p>
+          <div>
             Hello,
             <br />
             World
-          </p>
+          </div>
         </div>
         <div>
           <NextButton text={"Projects"} to={"/projects"} />
         </div>
       </Greeting>
-		<Info/>
+      <Info />
     </div>
   );
 }
