@@ -5,10 +5,23 @@
 .inner {
   display: table;
   margin: 0 auto;
-  color: #ebf0eb;
-  font-size: 3vh;
+  
+  font-size: 3.5vh;
   font-family: "Days One", sans-serif;
   letter-spacing: 5px;
+}
+
+p span {
+  background: -webkit-linear-gradient(#eee, #6b6a6a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p span:hover {
+  background: -webkit-linear-gradient(#eee, #f7f7f7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  cursor: pointer;
 }
 
 .icons {
@@ -17,6 +30,6 @@
 }
 
 .icons img:hover {
-	padding: 5px;
-	box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.6);
- }
+  padding: 5px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.6);
+}

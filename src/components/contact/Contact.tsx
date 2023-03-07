@@ -5,7 +5,7 @@ function Contact() {
   return (
     <div className={contactStyles.main}>
 		<div className={contactStyles.inner}>
-			 <p >Contact me</p>
+			 <p><span> Contact  Me</span></p>
       <div className={contactStyles.icons}>
         {contacts.map((contact) => (
           <a href={contact.link} target="_blank" rel="noreferrer">
