@@ -1,17 +1,16 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import appStyles from "./app.module.css";
-import Header from "./components/header/Header";
-import Welcome from "./components/welcome/Welcome";
-import { AboutPage } from "./pages/aboutPage";
-import { ProjectPage } from "./pages/projectPage";
-import { ContactPage } from "./pages/contactPage";
+// import appStyles from "./app.module.css";
+import Header from "../header/Header";
+import Welcome from "../welcome/Welcome";
+import { AboutPage } from "../../pages/aboutPage";
+import { ProjectPage } from "../../pages/projectPage";
+import { ContactPage } from "../../pages/contactPage";
 
 function App() {
   return (
-    <div className={appStyles.main}>
+    <div>
       <Header />
-
       <Routes>
         <Route path="/" element={<Welcome />} />
         <Route path="/about" element={<AboutPage />} />
