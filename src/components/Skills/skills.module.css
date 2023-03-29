@@ -1,5 +1,4 @@
 .container {
-  
   margin-bottom: 130px;
   display: flex;
   flex-wrap: wrap;
@@ -8,25 +7,23 @@
   color: #ebf0eb;
 }
 
-
 .text {
   font-size: 3.5vh;
   margin-bottom: 50px;
 }
 
 .card {
-	margin-right: 400px;
+  margin-right: 400px;
   position: relative;
   z-index: 2;
   border-radius: 10px;
   box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.2);
   background-color: #fcfffc;
   color: #222;
-
 }
 
 .card::after {
-	display: block;
+  display: block;
   content: "";
   position: absolute;
   z-index: 1;
@@ -36,7 +33,7 @@
   height: 420px;
   border-radius: 10px;
   background-color: rgba(255, 255, 255, 0.1);
-  transform: translate(20px,20px);
+  transform: translate(20px, 20px);
 }
 .key {
   padding: 10px;
@@ -60,11 +57,72 @@
   margin-bottom: 10px;
 }
 
-
 .skills img {
   max-width: 40px;
   margin-right: 10px;
   vertical-align: middle;
 }
+
+@media screen and (max-width: 1750px) {
+  .container {
+    flex-direction: column;
+  }
+  .card {
+    margin-top: 130px;
+    margin-left: 500px;
+    margin-right: 100px;
+    max-width: 500px;
+  }
+  .card::after {
+    width: 530px;
+    height: 500px;
+  }
+  .skills {
+    justify-content: start;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .card::after {
+    height: 520px;
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 1270px) {
+  .card::after {
+    width: 450px;
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    max-width: 400px;
+    margin-left: 300px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .card {
+    margin-left: 200px;
+    margin-right: 50px;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .card {
+    margin-left: 50px;
+    max-width: 330px;
+  }
+
+  .card::after {
+    width: 350px;
+    height: 500px;
+  }
+}
+
+
 
 
