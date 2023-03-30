@@ -8,11 +8,8 @@ function About() {
     <div className={stylesAbout.main}>
       <Greeting>
         <div className={stylesAbout.text}>
-          <div>
-            Hello,
-            <br />
-            World
-          </div>
+          <div>Hello, </div>
+          <div>World</div>
         </div>
         <div>
           <NextButton text={"Projects"} to={"/projects"} />

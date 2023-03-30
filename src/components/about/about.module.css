@@ -1,17 +1,19 @@
 .main {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   justify-content: space-between;
   font-family: "Jost", sans-serif;
   color: #ebf0eb;
+  margin-left: 200px;
 }
 
 .text {
-  font-size: 9.5vh;
+  font-size: 8.5vh;
   letter-spacing: 5px;
   font-family: "Days One", sans-serif;
   opacity: 0.4;
-  
+  margin-bottom: 70px;
+ 
 }
 
 .text:before {
@@ -43,5 +45,19 @@
   }
   50% {
     opacity: 1;
+  }
+}
+
+@media screen and (max-width: 1750px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .main {
+    margin-left: 10px;
   }
 }

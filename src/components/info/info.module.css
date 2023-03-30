@@ -1,7 +1,7 @@
 .main {
   margin-right: 300px;
   color: #ebf0eb;
-	font-family: "Jost", sans-serif;
+  font-family: "Jost", sans-serif;
 }
 .avatar {
   width: 100%;
@@ -13,6 +13,8 @@
 .scroll {
   width: 600px;
   overflow-y: scroll;
+  margin-bottom: 30px;
+  margin-top: 20px;
 }
 
 .scroll::-webkit-scrollbar-track {
@@ -39,5 +41,85 @@
 
 .info {
   max-height: 75vh;
-  font-size: 26px;
+  font-size: 1.5vw;
+  padding-right: 30px;
+}
+
+.project {
+  height: 550px;
+}
+
+a img {
+  max-width: 550px;
+}
+
+@media screen and (max-width: 1750px) {
+  .main {
+    margin-left: 450px;
+    /* margin-right: 50px; */
+  }
+  .scroll {
+    margin-top: 130px;
+  }
+  .avatar {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    width: 60%;
+    height: 50%;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .main {
+    margin-left: 350px;
+    
+  }
+
+  .info {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .scroll {
+    max-width: 550px;
+  }
+  .main {
+    margin-left: 140px;
+    margin-right: 0px;
+  }
+  .avatar {
+    width: 80%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .info {
+    padding-right: 10px;
+    font-size: 3.5vw;
+  }
+  .project {
+    width: 350px;
+    height: 450px;
+  }
+
+  .main {
+    margin-left: 40px;
+  }
+
+  a img {
+    max-width: 350px;
+  }
+
+  .avatar {
+    width: 90%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 670px) {
+  .scroll {
+    max-width: 400px;
+  }
 }

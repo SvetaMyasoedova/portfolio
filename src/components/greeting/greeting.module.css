@@ -1,16 +1,29 @@
 .about {
   display: flex;
   flex-direction: column;
-  margin-left: 300px;
+  margin-left: 230px;
 }
 
 @media screen and (max-width: 1750px) {
   .about {
     margin-right: 50px;
+    margin-left: 550px;
   }
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 1300px) {
+  .about {
+    margin-left: 450px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .about {
+    margin-left: 150px;
+  }
+}
+
+@media screen and (max-width: 650px) {
   .about {
     margin-left: 100px;
   }

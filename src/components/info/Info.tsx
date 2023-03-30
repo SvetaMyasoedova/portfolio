@@ -20,7 +20,7 @@ function Info() {
         <div className={stylesInfo.scroll}>
           <div className={stylesInfo.info}>
             <p>7 months ago I could make a site like this using only HTML</p>
-            <img src={project} alt="My first project" />
+            <img className={stylesInfo.project} src={project} alt="My first project" />
             <p>
               But now I can make more complex sites and use different
               technologies
