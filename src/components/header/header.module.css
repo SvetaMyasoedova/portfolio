@@ -8,7 +8,6 @@ a:visited {
   padding-left: 10px;
   display: flex;
   justify-content: space-between;
-  /* flex-wrap: wrap; */
   align-items: baseline;
   font-size: 1.2vw;
   font-family: "Days One", sans-serif;
@@ -41,7 +40,6 @@ a:visited {
 
 .nav {
   display: flex;
-  /* flex-wrap: wrap; */
   gap: 50px;
   font-size: 1.5vw;
   align-items: baseline;
@@ -56,7 +54,8 @@ a:visited {
 
 .content:hover {
   border-radius: 10px;
-  padding: 5px 15px;
+  padding: 5px 10px;
+  font-size: 1.2vw;
   background-image: linear-gradient(
     120deg,
     rgb(139, 98, 204),
@@ -88,8 +87,12 @@ a:visited {
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    /* gap: 10px; */
     transition: all 1s ease;
+  }
+  .content:hover {
+  
+    font-size: 1.5vw;
+   
   }
   .navActive {
     opacity: 100%;
