@@ -3,7 +3,7 @@
   margin: 30px 20px;
   width: 95%;
   display: flex;
-  gap: 5px;
+  gap: 20px;
   box-shadow: 0 0 7px 7px rgba(27, 24, 24, 0.25);
   background-color: rgba(#222 0.1);
 }
