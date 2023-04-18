@@ -11,7 +11,7 @@ const Header: FC = () => {
     <div>
       <header className={headerStyles.header}>
         <Link to="/">
-          <p className={headerStyles.name}>SvetaMyasoedova</p>
+          <p className={headerStyles.name}>SvetaMiasoedova</p>
         </Link>
 
         <div

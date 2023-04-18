@@ -15,6 +15,11 @@ a:visited {
 }
 .name {
   color: #ebf0eb;
+  transition: color 0.2s;
+}
+.name:hover {
+  color: rgba(255, 255, 255, 0.2);
+
 }
 
 .burger {
@@ -90,9 +95,7 @@ a:visited {
     transition: all 1s ease;
   }
   .content:hover {
-  
     font-size: 1.5vw;
-   
   }
   .navActive {
     opacity: 100%;
