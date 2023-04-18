@@ -5,16 +5,18 @@
 .inner {
   display: table;
   margin: 0 auto;
-  
+
   font-size: 3.5vh;
   font-family: "Days One", sans-serif;
   letter-spacing: 5px;
 }
 
 p span {
+  margin-left: 40px;
   background: -webkit-linear-gradient(#eee, #6b6a6a);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  transition: background-color 0.2s;
 }
 
 p span:hover {
@@ -27,6 +29,7 @@ p span:hover {
 .icons {
   display: flex;
   gap: 30px;
+  margin-top: 50px;
 }
 
 .icons img:hover {
