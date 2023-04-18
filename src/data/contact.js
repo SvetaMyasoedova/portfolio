@@ -1,6 +1,7 @@
 import gitIcon from "../images/github_color.png";
 import gmailIcon from "../images/gmail.png";
 import whatsappIcon from "../images/whatsapp.png";
+import linkedin from "../images/linkedin.png";
 
 export const contacts = [
   {
@@ -18,5 +19,10 @@ export const contacts = [
     link: "https://github.com/SvetaMyasoedova",
     alt: "gitHub",
     img: gitIcon,
+  },
+  {
+    link: "https://www.linkedin.com/in/svetlana-miasoedova/",
+    alt: "linkedin",
+    img: linkedin,
   },
 ];
