@@ -4,6 +4,8 @@ import { skills } from "../../data/data";
 import NextButton from "../next-button/NextButton";
 import Greeting from "../greeting/Greeting";
 
+import cv from "../../documents/CV_Miasoedova_Svetlana.pdf";
+
 function Skills() {
   return (
     <>
@@ -18,8 +20,18 @@ function Skills() {
               I'am a Front-end Developer.
             </p>
           </div>
-          <div>
-            <NextButton text={"About me"} to={"/about"} />
+          <div className={skillsStyles.buttons}>
+            <div>
+              <NextButton text={"About me"} to={"/about"} />
+            </div>
+            <a
+              className={skillsStyles.cv}
+              href={cv}
+              download="CV_Miasoedova_Svetlana.pdf"
+              // target="false"
+            >
+              Download CV
+            </a>
           </div>
         </Greeting>
 

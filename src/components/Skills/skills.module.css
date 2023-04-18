@@ -63,6 +63,28 @@
   vertical-align: middle;
 }
 
+.buttons {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+.cv {
+  color: rgba(255, 255, 255, 0.2);
+  padding: 5px 20px;
+  letter-spacing: 2px;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
+}
+.cv:hover {
+  color: #fcfffc;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+
 @media screen and (max-width: 1750px) {
   .container {
     flex-direction: column;
@@ -122,7 +144,3 @@
     height: 500px;
   }
 }
-
-
-
-
