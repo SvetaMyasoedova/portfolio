@@ -1,3 +1,10 @@
+//news website
+import main from "../images/main.png";
+import newsPage from "../images/news.png";
+import aboutPage from "../images/about.png";
+import documentsPage from "../images/documents.png";
+import standartsPage from "../images/standarts.png";
+
 //burger
 import feeds from "../images/feeds.png";
 import ingredientDetails from "../images/ingredient_details.png";
@@ -50,9 +57,25 @@ export const projects = [
       <img src={login} alt="login page" />,
     ],
     gitHub: "https://github.com/SvetaMyasoedova/react-burger",
+    link: "https://svetamyasoedova.github.io/react-burger/#/",
   },
   {
     id: 2,
+    title: "Sports school news website",
+    text: "Development of a multi-page website for a sports school with the functionality of adding, editing articles in the news feed (via admin panel) and photo galleries. WordPress was chosen as a technology stack.",
+    skills: ["WordPress", "Elementor", "CSS"],
+    images: [
+      <img src={newsPage} alt="the news page" />,
+      <img src={aboutPage} alt="the about page" />,
+      <img src={main} alt="the main page " />,
+      <img src={documentsPage} alt="the documents page" />,
+      <img src={standartsPage} alt="the standarts page" />,
+    ],
+    link: "https://gtokonda.ru/",
+  },
+
+  {
+    id: 3,
     title: "Library",
     text: "Library app can take user’s input about books and  display them in card. The form allowing users to input the details for the new book: author, title, number of pages, whether it’s been read. The Library  also uses Local Storage to save the result.",
     skills: ["Javascript", "Local Storage", "CSS"],
@@ -64,7 +87,7 @@ export const projects = [
     gitHub: "https://github.com/SvetaMyasoedova/project-library",
   },
   {
-    id: 3,
+    id: 4,
     title: "Tic Tac Toe",
     text: "This is the well-known game Tic Tac Toe. I use JS function that allow players to add marks to a specific spot on the board and keep players from playing in spots that are already taken. The game checks for when the game is over: check for 3-in-a-row and a tie.",
     skills: ["Javascript", "CSS", "HTML"],
@@ -76,7 +99,7 @@ export const projects = [
     gitHub: "https://github.com/SvetaMyasoedova/tic-tac-toe",
   },
   {
-    id: 4,
+    id: 5,
     title: "GoCorona",
     text: "Simple responsive website. I used this free design to learn how to layout and make responsive websites. Also SCSS is actively used here.",
     skills: ["HTML", "SCSS"],

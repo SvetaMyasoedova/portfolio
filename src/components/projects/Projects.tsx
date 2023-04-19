@@ -11,6 +11,7 @@ function Projects() {
           images={project.images}
           title={project.title}
           text={project.text}
+          link={project.link}
           skills={project.skills}
           gitHub={project.gitHub}
         />

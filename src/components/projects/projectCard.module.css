@@ -29,6 +29,7 @@
 .text {
   max-width: 900px;
   font-size: 2.5vh;
+  margin-bottom: 20px;
 }
 
 .container {
@@ -48,8 +49,24 @@
   margin-bottom: 2px;
 }
 
-a {
+a,
+a:active,
+a:visited {
+  text-decoration: none;
+}
+
+.link {
   cursor: pointer;
+  transition: color 0.2s;
+  color: rgba(255, 255, 255, 0.2);
+
+  letter-spacing: 2px;
+}
+
+.link:hover {
+  padding: 5px 10px;
+  color: #fcfffc;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .git {

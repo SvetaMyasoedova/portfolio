@@ -7,10 +7,18 @@ interface IInnerCard {
   title: string;
   text: string;
   skills: String[];
-  gitHub: string;
+  gitHub?: string;
+  link?: string;
 }
 
-function ProjectCard({ images, title, text, skills, gitHub }: IInnerCard) {
+function ProjectCard({
+  images,
+  title,
+  text,
+  skills,
+  gitHub,
+  link,
+}: IInnerCard) {
   return (
     <div className={cardStyles.main}>
       <div className={cardStyles.images}>
@@ -21,18 +29,26 @@ function ProjectCard({ images, title, text, skills, gitHub }: IInnerCard) {
       <div className={cardStyles.info}>
         <h2>{title}</h2>
         <div className={cardStyles.text}>{text}</div>
+        {link ? (
+          <div>
+            <a className={cardStyles.link} href={link} target="_blank">
+              Сlick here to see
+            </a>
+          </div>
+        ) : null}
+
         <div className={cardStyles.container}>
           {skills.map((skill) => (
             <p className={cardStyles.skill}>{skill}</p>
           ))}
         </div>
-       
-        <a href={gitHub} target='_blank'>
-          <img className={cardStyles.git}  src={gitIcon} alt="gitHub icon" />
-        </a>
-      
+
+        {gitHub ? (
+          <a href={gitHub} target="_blank">
+            <img className={cardStyles.git} src={gitIcon} alt="gitHub icon" />
+          </a>
+        ) : (<p></p>)}
       </div>
-      
     </div>
   );
 }
