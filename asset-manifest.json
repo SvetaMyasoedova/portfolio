@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.e56881e3.css",
+    "main.js": "/portfolio/static/js/main.a5787b93.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/library.png": "/portfolio/static/media/library.df620332df0b9faa77be.png",
+    "static/media/cards.png": "/portfolio/static/media/cards.6f375410a9f31e0e49be.png",
+    "static/media/add.png": "/portfolio/static/media/add.a9421a8eb155251ed6bc.png",
+    "static/media/CV_Miasoedova_Svetlana.pdf": "/portfolio/static/media/CV_Miasoedova_Svetlana.298c78393c6cdcab8bd5.pdf",
+    "static/media/standarts.png": "/portfolio/static/media/standarts.fdffa1fda3f9c92cd21d.png",
+    "static/media/about.png": "/portfolio/static/media/about.fd28ea922a8c0f640182.png",
+    "static/media/main.png": "/portfolio/static/media/main.8b56916556fdc18cbd8c.png",
+    "static/media/news.png": "/portfolio/static/media/news.4889ab8a5810cb46899b.png",
+    "static/media/first_project.png": "/portfolio/static/media/first_project.e1fbf9549d640ae39f01.png",
+    "static/media/facts.png": "/portfolio/static/media/facts.e44903e90a4c8d4d53da.png",
+    "static/media/order.png": "/portfolio/static/media/order.8e69d9cdba8e6d0d998e.png",
+    "static/media/feeds.png": "/portfolio/static/media/feeds.8a9821581a7dd5541211.png",
+    "static/media/redux.png": "/portfolio/static/media/redux.1b4bb5fceb01b19da59d.png",
+    "static/media/main_page.png": "/portfolio/static/media/main_page.a721a64fdcbd5f7d0aac.png",
+    "static/media/modal.png": "/portfolio/static/media/modal.90bc5c9b759ceabd3aab.png",
+    "static/media/corona.png": "/portfolio/static/media/corona.dc1bb2f7256a13e13e95.png",
+    "static/media/documents.png": "/portfolio/static/media/documents.1bcbd323c149ee6466a9.png",
+    "static/media/avatar.jpg": "/portfolio/static/media/avatar.e9c69c0f97859fa13f00.jpg",
+    "static/media/app_download.png": "/portfolio/static/media/app_download.8cfbfd5c46a200fd0bd8.png",
+    "static/media/app.png": "/portfolio/static/media/app.bb153f14be332b913fd4.png",
+    "static/media/ingredient_details.png": "/portfolio/static/media/ingredient_details.bbd5a181abe087ea0d5f.png",
+    "static/media/register.png": "/portfolio/static/media/register.d0be641ec0242d5d0214.png",
+    "static/media/login.png": "/portfolio/static/media/login.e1825596f35bcffd52e6.png",
+    "static/media/win.png": "/portfolio/static/media/win.2095e2c18622a6e87657.png",
+    "static/media/tie.png": "/portfolio/static/media/tie.9df26df4c71386e19e5f.png",
+    "static/media/tic_tac_toe.png": "/portfolio/static/media/tic_tac_toe.0d0754f6a5d1ffd4fc20.png",
+    "static/media/codewars.svg": "/portfolio/static/media/codewars.05c30f027cc2a4322012b373e4a17e36.svg",
+    "index.html": "/portfolio/index.html",
+    "main.e56881e3.css.map": "/portfolio/static/css/main.e56881e3.css.map",
+    "main.a5787b93.js.map": "/portfolio/static/js/main.a5787b93.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e56881e3.css",
+    "static/js/main.a5787b93.js"
+  ]
+}
