@@ -56,7 +56,6 @@ a img {
 @media screen and (max-width: 1750px) {
   .main {
     margin-left: 450px;
-    /* margin-right: 50px; */
   }
   .scroll {
     margin-top: 130px;
@@ -72,7 +71,6 @@ a img {
 @media screen and (max-width: 1300px) {
   .main {
     margin-left: 350px;
-    
   }
 
   .info {
@@ -80,7 +78,7 @@ a img {
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1020px) {
   .scroll {
     max-width: 550px;
   }
@@ -122,4 +120,45 @@ a img {
   .scroll {
     max-width: 400px;
   }
+}
+
+@media screen and (max-width: 480px) {
+  .scroll {
+    max-width: 300px;
+  }
+
+  .project {
+    width: 260px;
+    height: 350px;
+  }
+
+  a img {
+    max-width: 260px;
+  }
+  .scroll::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .scroll {
+    margin-top: 100px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+
+  .scroll {
+    max-width: 250px;
+  }
+  .project {
+    width: 230px;
+    height: 300px;
+  }
+  .main {
+    margin-left: 10px;
+  }
+
+  a img {
+    max-width: 230px;
+  }
+
 }
