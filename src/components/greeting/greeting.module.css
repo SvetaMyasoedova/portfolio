@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 920px) {
   .about {
     margin-left: 150px;
   }
@@ -28,4 +28,12 @@
     margin-left: 100px;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .about {
+    margin-left: 50px;
+  }
+}
+
+
 

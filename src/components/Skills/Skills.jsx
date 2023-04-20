@@ -28,7 +28,6 @@ function Skills() {
               className={skillsStyles.cv}
               href={cv}
               download="CV_Miasoedova_Svetlana.pdf"
-              // target="false"
             >
               Download CV
             </a>

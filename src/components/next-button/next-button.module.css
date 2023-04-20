@@ -30,3 +30,17 @@ a:visited {
     font-size: 1.3em;
   }
 }
+
+@media screen and (max-width: 480px) {
+  .btn {
+    font-size: 1em;
+  }
+  
+}
+
+@media screen and (max-width: 360px) {
+  .btn {
+    font-size: 0.8em;
+  }
+  
+}

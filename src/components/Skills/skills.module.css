@@ -78,13 +78,13 @@ a:visited {
   color: rgba(255, 255, 255, 0.2);
   padding: 5px 20px;
   letter-spacing: 2px;
+  font-size: 1.2em;
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.2);
 }
 .cv:hover {
   color: #fcfffc;
   background-color: rgba(255, 255, 255, 0.2);
 }
-
 
 @media screen and (max-width: 1750px) {
   .container {
@@ -121,16 +121,19 @@ a:visited {
 
 @media screen and (max-width: 1200px) {
   .card {
-    max-width: 400px;
+    max-width: 450px;
     margin-left: 300px;
     margin-right: 50px;
+  }
+  .card::after {
+    width: 470px;
+    height: 400px;
   }
 }
 
 @media screen and (max-width: 850px) {
   .card {
     margin-left: 200px;
-    margin-right: 50px;
   }
 }
 
@@ -144,5 +147,61 @@ a:visited {
     width: 350px;
     height: 500px;
   }
-  
+}
+
+@media screen and (max-width: 550px) {
+  .text {
+    font-size: 3vh;
+    margin-bottom: 30px;
+  }
+  .buttons {
+    gap: 20px;
+  }
+  .cv {
+    font-size: 1em;
+    padding: 5px 10px;
+  }
+
+  .card {
+    max-width: 310px;
+    margin-top: 100px;
+  }
+
+  .card {
+    margin-left: 40px;
+  }
+  .card::after {
+    width: 305px;
+    height: 470px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .text {
+    font-size: 2.3vh;
+  }
+
+  .cv {
+    font-size: 0.6em;
+    padding: 5px 5px;
+  }
+  .skills {
+    gap: 30px;
+    font-size: 2.3vh;
+  }
+  .skills img {
+    max-width: 30px;
+    margin-right: 0;
+  }
+
+  .card {
+    margin-left: 30px;
+    max-width: 250px;
+    margin-top: 50px;
+  }
+
+  .card::after {
+    width: 250px;
+    height: 370px;
+  }
 }
