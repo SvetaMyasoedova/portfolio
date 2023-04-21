@@ -5,7 +5,7 @@ import linkedin from "../images/linkedin.png";
 
 export const contacts = [
   {
-    link: "mailto:so.myasoedova@gmail.com",
+    link: "mailto:s.miasoedova@gmail.com",
     alt: "email",
     img: gmailIcon,
   },
